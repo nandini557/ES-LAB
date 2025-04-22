@@ -1,4 +1,5 @@
 // Write a C program for 4 digit BCD up/down counter on seven segment using a switch and timer with a delay of 1-second between each count.
+
 #include <LPC17xx.h>
 
 const unsigned char segment_code[10] = {0x3F, 0x06, 0x5B, 0x4F,
